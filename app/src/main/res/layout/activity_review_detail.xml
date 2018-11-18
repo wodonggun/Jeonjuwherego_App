@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.racos7.chungapp.Activity.Activity_Review_Detail">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#808080"
+        android:layout_below="@+id/tv_name"
+        android:id="@+id/line_bar1"/>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#808080"
+            android:layout_below="@+id/tv_writer"
+            android:id="@+id/line_bar2"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:textColor="#ff3000"
+        android:layout_marginLeft="3dp"
+        android:textSize="20dp"
+        android:text="관광지 이름 정보 입력하세요"
+        android:id="@+id/tv_name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="title"
+            android:textStyle="bold"
+            android:id="@+id/tv_title"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:textSize="40dp"
+            android:layout_below="@+id/line_bar1"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="20dp"
+            android:text="wodonggun@naver.com"
+            android:textColor="#808080"
+            android:id="@+id/tv_writer"
+            android:layout_below="@+id/tv_title"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:id="@+id/text_line"
+            android:layout_width="1dp"
+            android:layout_height="11dp"
+            android:layout_marginTop="86dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/tv_writer"
+
+            android:background="#808080" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:text="2017-12-26 23:05"
+
+            android:textColor="#808080"
+            android:id="@+id/tv_date"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/text_line" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="260dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_mid_dukjin"
+            android:id="@+id/imageView_url"
+            android:layout_below="@+id/line_bar2"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/tv_body"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="body"
+            android:layout_below="@+id/imageView_url"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

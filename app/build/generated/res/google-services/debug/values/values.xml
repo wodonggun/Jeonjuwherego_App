@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">630713405781-1h9hkr59l1fu6v3kka0vr6givemv2269.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://jeonju-8a5cf.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">630713405781</string>
+    <string name="google_api_key" translatable="false">AIzaSyDWVcMTQEvB8CEt7CqCuXRq7E2hl4s-oRk</string>
+    <string name="google_app_id" translatable="false">1:630713405781:android:cdce64ff091501ce</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDWVcMTQEvB8CEt7CqCuXRq7E2hl4s-oRk</string>
+    <string name="google_storage_bucket" translatable="false">jeonju-8a5cf.appspot.com</string>
+    <string name="project_id" translatable="false">jeonju-8a5cf</string>
+</resources>

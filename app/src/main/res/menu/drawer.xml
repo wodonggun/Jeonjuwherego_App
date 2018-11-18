@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_item_attachment"
+        android:checked="true"
+        android:icon="@drawable/drawer_home"
+        android:title="홈 화면" />
+    <item
+        android:id="@+id/navigation_item_images"
+        android:icon="@drawable/drawer_mypage"
+        android:title="마이페이지" />
+
+</group>
+
+<item android:title="Information">
+
+    <menu>
+        <item
+            android:icon="@drawable/drawer_tour"
+            android:id="@+id/nav_sub_menu_item01"
+            android:title="관 광 지" />
+        <item
+            android:icon="@drawable/drawer_accomodation"
+            android:id="@+id/nav_sub_menu_item02"
+            android:title="숙 박" />
+
+        <item
+            android:icon="@drawable/drawer_food"
+            android:id="@+id/nav_sub_menu_item03"
+            android:title="맛 집" />
+        <item
+            android:icon="@drawable/drawer_festival"
+            android:id="@+id/nav_sub_menu_item04"
+            android:title="축 제" />
+
+        <item
+            android:icon="@drawable/drawer_recomend"
+            android:id="@+id/nav_sub_menu_item05"
+            android:title="추 천 코 스" />
+
+    </menu>
+</item>
+
+</menu>

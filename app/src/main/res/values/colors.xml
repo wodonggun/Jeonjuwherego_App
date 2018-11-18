@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>  //맨위 상단(베터리,시간표시된곳) 칼라
+    <color name="colorAccent">#FF4081</color>
+    <color name="myThemeColor">#FFFFFF</color>     //메인 흐린 칼라(이전칼라 : #a3ffff )
+    <color name="Myblue">#23b8cc</color>
+    <color name="mywhite">#FFFFFF</color>
+    <color name="mypage_toolbarcolor">#596067</color>
+    <color name="mypage_greencolor">#1ed266</color>
+    <color name="mypage_graycolor">#909ca3</color>
+
+
+
+</resources>
+

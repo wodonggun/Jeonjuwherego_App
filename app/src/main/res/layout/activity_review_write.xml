@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.racos7.chungapp.Activity.Activity_Review_Write">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:titleTextColor="@color/Myblue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    <TextView
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="2dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/toolbar_textview"
+        android:textSize="25dp"
+        android:text=""
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="11dp"
+        android:layout_alignBottom="@+id/toolbar2"
+        android:textColor="#000000"
+
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_below="@+id/toolbar2"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/img_layout"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#409493"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/add_photo"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:background="@android:drawable/ic_menu_gallery"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/txt1"
+                    android:layout_below="@+id/add_photo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="↑ 사진 클릭"
+                    />
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_below="@+id/txt1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/txt3"
+                    android:layout_below="@+id/txt2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여행지 이미지를 넣어주세요"
+                    android:textSize="24sp"
+                    />
+
+            </RelativeLayout>
+
+            <EditText
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_below="@+id/img_layout"
+                android:id="@+id/edit_title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="나의 리뷰 제목을 입력해주세요."
+                android:textSize="25sp"
+                android:maxLines="1"
+                android:background="@null"/>
+
+            <EditText
+                android:layout_margin="3dp"
+                android:gravity="top"
+                android:layout_below="@id/edit_title"
+                android:id="@+id/edit_content"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="@drawable/login_idpw_border"
+                android:maxLength="500"
+                android:hint="최대 500글자로 작성 해주세요"
+                />
+
+
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/edit_content"
+                android:gravity="center"
+                android:text="저장"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
