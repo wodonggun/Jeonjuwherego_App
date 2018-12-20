@@ -4,7 +4,7 @@
 
 ![news](https://user-images.githubusercontent.com/35188271/50291570-4fbd3300-04b2-11e9-9970-9372e7a85ac5.PNG)
 
-[뉴스링크](http://news1.kr/articles/?3500561)
+[뉴스 링크 바로가기](http://news1.kr/articles/?3500561)
 
 # 구글스토어 
 https://play.google.com/store/apps/details?id=com.racos.racos2.jeonju_where_go&hl=ko
