@@ -1,5 +1,6 @@
 # 전주 앱 공모전
 
+![img](https://user-images.githubusercontent.com/35188271/50290843-43d07180-04b0-11e9-98de-3d15f6a7a9b1.jpg)
 
 # 구글스토어 
 https://play.google.com/store/apps/details?id=com.racos.racos2.jeonju_where_go&hl=ko
