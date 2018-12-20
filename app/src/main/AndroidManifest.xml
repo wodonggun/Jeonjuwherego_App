@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.racos.racos2.jeonju_where_go">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permisson.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.DIAL_PHONE" />
+
+
+
+
+
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon_last"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme = "@style/AppTheme"
+        android:largeHeap="true">
+
+        <activity
+            android:name="com.racos.racos2.jeonju_where_go.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+
+                <data android:scheme="@string/kakao_scheme"
+                    android:host="@string/kakaolink_host" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.racos.racos2.jeonju_where_go.MainActivity"
+            />
+
+
+
+
+
+        <activity
+            android:name="com.racos.racos2.jeonju_where_go.SelectActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.racos.racos2.jeonju_where_go.Select2Activity"
+            android:theme="@style/AppTheme" />
+
+
+
+
+        <activity android:name="com.racos.racos2.jeonju_where_go.lastpage_fromMypage" />
+        <activity android:name="com.racos.racos2.jeonju_where_go.lastpage" />
+        <activity android:name="com.racos.racos2.jeonju_where_go.NextPage"/>
+        <activity android:name="com.racos.racos2.jeonju_where_go.Onlymap"/>
+        <activity android:name="com.racos.racos2.jeonju_where_go.MypageActivity"/>
+        <activity android:name="com.racos.racos2.jeonju_where_go.Activity.Activity_Review"/>
+        <activity android:name="com.racos.racos2.jeonju_where_go.Activity.Activity_Review_Detail"/>
+        <activity android:name="com.racos.racos2.jeonju_where_go.Activity.Activity_Review_Write"/>
+        <activity android:name="com.racos.racos2.jeonju_where_go.RecomandActivity"/>
+
+        <service
+            android:name="com.racos.racos2.jeonju_where_go.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <!-- 카카오톡 sdk  -->
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+
+
+
+    </application>
+
+</manifest>

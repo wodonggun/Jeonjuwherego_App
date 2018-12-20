@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute">
+
+
+    <font
+        android:font="@font/circle"
+        android:fontStyle="normal"
+        android:fontWeight="600"
+        app:font="@font/circle"
+        app:fontStyle="normal"
+        app:fontWeight="600"
+        ></font>
+
+    <font
+        android:font="@font/mak"
+        android:fontWeight="400"
+        android:fontStyle="normal"
+        app:font="@font/mak"
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        ></font>
+
+
+</font-family>

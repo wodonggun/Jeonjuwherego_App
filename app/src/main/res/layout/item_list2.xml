@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:weightSum="1"
+    android:background="#ffffff"
+    android:id="@+id/select2_relative">
+
+
+    <ImageView
+        android:id="@+id/imageviewlist"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:id="@+id/imageviewlist2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:id="@+id/imageviewlist3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="170dp"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="15dp"
+        android:textSize="13dp"
+        android:layout_below="@+id/title"
+        />
+    <TextView
+
+        android:id="@+id/like"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginLeft="320dp"
+        android:text="10"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="100dp"
+
+        app:srcCompat="@drawable/img_heart"
+
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#87cefa"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
