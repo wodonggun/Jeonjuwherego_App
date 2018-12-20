@@ -1,6 +1,10 @@
 # 전주 앱 공모전
 
-![img](https://user-images.githubusercontent.com/35188271/50290843-43d07180-04b0-11e9-98de-3d15f6a7a9b1.jpg)
+![jeonju](https://user-images.githubusercontent.com/35188271/50290998-a9bcf900-04b0-11e9-8bff-21536e4fcbcf.jpg)
+
+![news](https://user-images.githubusercontent.com/35188271/50291570-4fbd3300-04b2-11e9-9970-9372e7a85ac5.PNG)
+
+[뉴스링크](http://news1.kr/articles/?3500561)
 
 # 구글스토어 
 https://play.google.com/store/apps/details?id=com.racos.racos2.jeonju_where_go&hl=ko
@@ -22,3 +26,5 @@ compileSdkVersion 27
 mindSdkVersion 21 (Lollipop)
 ```
 ![img](https://user-images.githubusercontent.com/35188271/50290720-e9cfac00-04af-11e9-9065-e9e403029c26.png)
+
+
