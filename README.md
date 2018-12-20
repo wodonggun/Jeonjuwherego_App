@@ -6,8 +6,13 @@
 
 [뉴스 링크 바로가기](http://news1.kr/articles/?3500561)
 
-# 구글스토어 
-https://play.google.com/store/apps/details?id=com.racos.racos2.jeonju_where_go&hl=ko
+[구글 스토어 다운로드](https://play.google.com/store/apps/details?id=com.racos.racos2.jeonju_where_go&hl=ko)
+
+
+# 소개 
+
+![11](https://user-images.githubusercontent.com/35188271/50297098-51d9be80-04bf-11e9-93d9-f40480fc84b4.png)
+![22](https://user-images.githubusercontent.com/35188271/50297099-51d9be80-04bf-11e9-9fcb-71044e5b554a.png)
 
 
 
