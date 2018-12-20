@@ -1,4 +1,0 @@
-#Fri Nov 16 11:26:21 KST 2018
-base.0=C\:\\Users\\Racos2\\AndroidStudioProjects\\Jeonjuwherego\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
