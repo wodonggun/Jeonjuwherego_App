@@ -31,9 +31,10 @@ compileSdkVersion 27
 mindSdkVersion 21 (Lollipop)
 ```
 
+![img](https://user-images.githubusercontent.com/35188271/50290720-e9cfac00-04af-11e9-9065-e9e403029c26.png)
+
 # 브랜치
 
 `master` 배포용 Repo
 `Part1` 개발용 Repo
 
-![img](https://user-images.githubusercontent.com/35188271/50290720-e9cfac00-04af-11e9-9065-e9e403029c26.png)
