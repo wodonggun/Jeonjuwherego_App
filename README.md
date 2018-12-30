@@ -9,7 +9,7 @@
 [구글 스토어 다운로드](https://play.google.com/store/apps/details?id=com.racos.racos2.jeonju_where_go&hl=ko)
 
 
-# 소개 
+# 소개
 
 ![11](https://user-images.githubusercontent.com/35188271/50297098-51d9be80-04bf-11e9-93d9-f40480fc84b4.png)
 ![22](https://user-images.githubusercontent.com/35188271/50297099-51d9be80-04bf-11e9-9fcb-71044e5b554a.png)
@@ -30,6 +30,10 @@ SDK version 27 (Oreo)
 compileSdkVersion 27
 mindSdkVersion 21 (Lollipop)
 ```
+
+# 브랜치
+
+`master` 배포용 Repo
+`Part1` 개발용 Repo
+
 ![img](https://user-images.githubusercontent.com/35188271/50290720-e9cfac00-04af-11e9-9065-e9e403029c26.png)
-
-
