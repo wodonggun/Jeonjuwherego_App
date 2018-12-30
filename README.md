@@ -35,6 +35,6 @@ mindSdkVersion 21 (Lollipop)
 
 # 브랜치
 
-`master` 배포용 Repo
+`master` 배포용 Repo <br>
 `Part1` 개발용 Repo
 
