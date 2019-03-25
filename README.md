@@ -1,5 +1,11 @@
 # 전주 앱 공모전
 
+- 포트폴리오 열기
+
+        Jeonjuwherego_App/포트폴리오(전주앱 공모전).pdf
+      
+
+
 ![jeonju](https://user-images.githubusercontent.com/35188271/50290998-a9bcf900-04b0-11e9-8bff-21536e4fcbcf.jpg)
 
 ![news](https://user-images.githubusercontent.com/35188271/50291570-4fbd3300-04b2-11e9-9970-9372e7a85ac5.PNG)
