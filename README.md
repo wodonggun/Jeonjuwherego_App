@@ -1,8 +1,7 @@
 # 전주 앱 공모전
 
-- 포트폴리오 열기
-
-        Jeonjuwherego_App/포트폴리오(전주앱 공모전).pdf
+- 포트폴리오 열기  
+https://github.com/wodonggun/Jeonjuwherego_App/blob/master/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4(%EC%A0%84%EC%A3%BC%EC%95%B1%20%EA%B3%B5%EB%AA%A8%EC%A0%84).pdf
       
 
 
