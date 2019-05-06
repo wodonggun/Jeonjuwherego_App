@@ -1,7 +1,6 @@
 # 전주 앱 공모전
 
-- 포트폴리오 열기  
-https://github.com/wodonggun/Jeonjuwherego_App/blob/master/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4(%EC%A0%84%EC%A3%BC%EC%95%B1%20%EA%B3%B5%EB%AA%A8%EC%A0%84).pdf
+- [포트폴리오 열기](https://github.com/wodonggun/Jeonjuwherego_App/blob/master/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4(%EC%A0%84%EC%A3%BC%EC%95%B1%20%EA%B3%B5%EB%AA%A8%EC%A0%84).pdf)
       
 
 
@@ -43,3 +42,6 @@ mindSdkVersion 21 (Lollipop)
 `master` 배포용 Repo <br>
 `Part1` 개발용 Repo
 
+# 배포
+MIT License를 따르며,  
+자유롭게 사용, 참고하셔도 되지만 `무단 배포 및 타공모전 사용을 엄격히 제한합니다.`  
